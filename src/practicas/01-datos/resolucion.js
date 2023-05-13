@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import users from '../../fakeApi/users.json';
 
 export default function clase01() {
