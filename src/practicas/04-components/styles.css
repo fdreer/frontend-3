@@ -1,0 +1,23 @@
+.card {
+  background-color: brown;
+  margin: 10px 0px;
+  border-radius: 30px;
+  padding: 0.5rem;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.with-title {
+  background-color: rgb(215, 122, 1);
+}
+
+.with-footer {
+  background-color: rgb(215, 208, 1);
+}
+
+.with-both {
+  background-color: rgb(108, 215, 1);
+}
