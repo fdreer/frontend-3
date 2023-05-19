@@ -16,5 +16,7 @@ const StyledItem = styled.li`
   border: 1px solid #ccc;
   border-radius: 8px;
   box-sizing: border-box;
+  background-color: ${({children}) =>
+    children === 'México' ? 'red' : 'blue'};
 `;
 export default StyledItem;
