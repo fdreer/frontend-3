@@ -3,15 +3,15 @@ import {styled} from 'styled-components';
 
 // Con componente de React
 // export default function List(props) {
-//   return <StyledList>{props.children}</StyledList>;
+//   return <CountryList>{props.children}</CountryList>;
 // }
 
 // Con styled-components
-const StyledList = styled.ul`
+const CountryList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   list-style: none;
   box-sizing: border-box;
 `;
-export default StyledList;
+export default CountryList;

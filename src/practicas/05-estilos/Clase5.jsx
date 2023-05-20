@@ -1,17 +1,17 @@
-import List from './Components/List';
-import Item from './Components/Item';
+import List from './Components/CountryList';
+import Item from './Components/CountryItem';
 import paises from '../../fakeApi/paises.json';
-import StyledList from './Components/List';
-import StyledItem from './Components/Item';
+import CountryList from './Components/CountryList';
+import CountryItem from './Components/CountryItem';
 
-export default function Clase5(props) {
+export default function Clase5() {
   return (
     <>
-      <StyledList>
+      <CountryList>
         {paises.map((pais) => (
-          <StyledItem key={pais.id}>{pais.name}</StyledItem>
+          <CountryItem key={pais.id}>{pais.name}</CountryItem>
         ))}
-      </StyledList>
+      </CountryList>
     </>
   );
 }

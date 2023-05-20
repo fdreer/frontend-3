@@ -5,12 +5,12 @@ import styles from './Item.module.css';
 // export default function Item({children}) {
 //   return (
 //     // <li className={styles.item}>{children}</li>
-//     <StyledItem>{children}</StyledItem>
+//     <CountryItem>{children}</CountryItem>
 //   );
 // }
 
 // Con styled-components
-const StyledItem = styled.li`
+const CountryItem = styled.li`
   list-style: none;
   padding: 16px;
   border: 1px solid #ccc;
@@ -19,4 +19,4 @@ const StyledItem = styled.li`
   background-color: ${({children}) =>
     children === 'México' ? 'red' : 'blue'};
 `;
-export default StyledItem;
+export default CountryItem;
