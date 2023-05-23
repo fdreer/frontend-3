@@ -4,6 +4,7 @@ import Clase2 from './practicas/02-jsxMotivation/Clase2';
 import Clase3 from './practicas/03-entorno/Clase3';
 import Clase4 from './practicas/04-components/Clase4';
 import Clase5 from './practicas/05-estilos/Clase5';
+import Clase7 from './practicas/07-state-I/Clase7';
 
 function App() {
   // clase1();
@@ -12,7 +13,8 @@ function App() {
       {/* <Clase2 /> */}
       {/* <Clase3 /> */}
       {/* <Clase4 /> */}
-      <Clase5 />
+      {/* <Clase5 /> */}
+      <Clase7 />
     </>
   );
 }
