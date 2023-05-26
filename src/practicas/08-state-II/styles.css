@@ -1,0 +1,12 @@
+.account-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.account {
+  border: #ccc solid 3px;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+}
