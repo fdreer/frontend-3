@@ -9,6 +9,7 @@ import Clase8 from './practicas/08-state-II/Clase8'
 import Clase9 from './practicas/09-forms/Clase9'
 import Clase10 from './practicas/10-repaso/Clase10'
 import Clase13 from './practicas/13-useEffect/Clase13'
+import Clase14 from './practicas/14-fetch/Clase14'
 
 function App() {
   // clase1();
@@ -22,7 +23,8 @@ function App() {
       {/* <Clase8 /> */}
       {/* <Clase9 /> */}
       {/* <Clase10 /> */}
-      <Clase13 />
+      {/* <Clase13 /> */}
+      <Clase14 />
     </>
   )
 }
