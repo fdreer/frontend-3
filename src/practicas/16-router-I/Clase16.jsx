@@ -1,6 +1,7 @@
 import {Outlet, Route, Routes} from 'react-router-dom'
 import Header from './Components/Header'
 import SubSectionsExplorar from './routes/SubSectionsExplorar'
+import DinamicComponent from './components/ComponentePrueba'
 
 export default function Clase16() {
   return (
@@ -8,6 +9,7 @@ export default function Clase16() {
       <h1>Clase 16</h1>
       <Header />
       <Routes>
+        <Route path="dinamic/:id" element={<DinamicComponent />} />
         <Route path="/inicio" element={<h3>Inicio</h3>} />
         <Route path="/shorts" element={<h3>Shorts</h3>} />
         <Route path="/suscripciones" element={<h3>Suscripciones</h3>} />
